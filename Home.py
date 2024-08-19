@@ -10,10 +10,10 @@ with col1:
 with col2:
     st.title("Jaishree Daulagar")
     content = """
-    I have 1 year python Programming experience and possess Master's degree in Computer Science with University Distinction 
-    and Bachelor's degree in Electrical and Electronics Engineering.  In addition to Python, I have experience 
-    in Business Intelligence tools such as Informatica, Business Objects, Crystal Reports, SSIS, Cognos & 
-    Tableau. 
+    I have 1 year Python programming experience and possess Master's degree in Computer Science with University Distinction 
+    and Bachelor's degree in Electrical and Electronics Engineering.  In addition to Python, Pandas, Numpy, SciPy, Matplotlib, Jupyter, Machine Learning, SciKit-learn, TensorFlow, PyTorch, I have experience 
+    in SQL, Hadoop, Business Intelligence tools such as Informatica, Alteryx, SSIS, Business Objects, Crystal Reports,  ITIL (Service Now Support), Cognos,& 
+    Tableau, Airflow & Control-M. Worked in Banking, Capital Market, Health Insurance, Pharmaceutical, Electronics and Leasing Industry. Also, managed a team of 4 juniors to ensure timely and efficient project execution. 
       
     """
     st.info(content)
@@ -27,7 +27,7 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 df = pandas.read_csv("data.csv", sep=";")
 
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:5].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
@@ -35,7 +35,7 @@ with col3:
         st.write(f"[Source Code]({row['url']})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[5:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
