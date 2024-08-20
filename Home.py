@@ -13,7 +13,7 @@ with col2:
     I have 1 year Python programming experience and possess Master's degree in Computer Science with University Distinction 
     and Bachelor's degree in Electrical and Electronics Engineering.  In addition to Python, Pandas, Numpy, SciPy, Matplotlib, Jupyter, Machine Learning, SciKit-learn, TensorFlow, PyTorch, I have experience 
     in SQL, Hadoop, Business Intelligence tools such as Informatica, Alteryx, SSIS, Business Objects, Crystal Reports,  ITIL (Service Now Support), Cognos,& 
-    Tableau, Airflow & Control-M. Worked in Banking, Capital Market, Health Insurance, Pharmaceutical, Electronics and Leasing Industry. Also, managed a team of 4 juniors to ensure timely and efficient project execution. 
+    Tableau, Airflow & Control-M. Worked in Banking, Capital Market, Health Insurance, Pharmaceutical, Electronics and Leasing Industry. 
       
     """
     st.info(content)
