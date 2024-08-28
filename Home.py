@@ -10,7 +10,7 @@ with col1:
 with col2:
     st.title("Jaishree Daulagar")
     content = """
-    I have 6 years experience as "Senior Software Engineer". Python programming experience as well and possess Master's degree in Computer Science with University Distinction 
+    I have experience in Python programming and possess Master's degree in Computer Science with University Distinction 
     and Bachelor's degree in Electrical and Electronics Engineering.  In addition to Python, Pandas, Numpy, SciPy, Matplotlib, Jupyter, Machine Learning, SciKit-learn, TensorFlow, PyTorch, I have experience 
     in SQL, Hadoop, Business Intelligence tools such as Informatica, Alteryx, SSIS, Business Objects, Crystal Reports,  ITIL (Service Now Support), Cognos,& 
     Tableau, Airflow & Control-M.
